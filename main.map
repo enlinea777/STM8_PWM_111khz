@@ -1,0 +1,206 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _divulong
+     00000000  l_CABS                          
+     00000000  l_CONST                         
+     00000000  l_DABS                          
+     00000000  l_DATA                          
+     00000000  l_INITIALIZED                   
+     00000000  l_INITIALIZER                   
+     00000000  l__CODE                         
+     00000000  s_CABS                          
+     00000000  s_DABS                          
+     00000000  s__CODE                         
+     00000001  l_SSEG                          
+     00000001  s_DATA                          
+     00000001  s_INITIALIZED                   
+     00000001  s_SSEG                          
+     00000003  l_GSFINAL                       
+     00000007  l_HOME                          
+     0000001A  l_GSINIT                        
+     000000B9  l_CODE                          
+     00008000  s_HOME                          
+     00008007  s_GSINIT                        
+     00008021  s_GSFINAL                       
+     00008024  s_CODE                          
+     00008024  s_CONST                         
+     00008024  s_INITIALIZER                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000001    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00008000    00000007 =           7. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008000  A$main$46                          main
+     00008004  A$main$80                          main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00008007    0000001A =          26. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008007  A$main$56                          main
+     0000800A  A$main$57                          main
+     0000800C  A$main$59                          main
+     00008010  A$main$60                          main
+     00008011  A$main$61                          main
+     00008013  A$main$63                          main
+     00008016  A$main$64                          main
+     00008018  A$main$66                          main
+     0000801B  A$main$67                          main
+     0000801E  A$main$68                          main
+     0000801F  A$main$69                          main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             00008021    00000003 =           3. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008021  A$main$73                          main
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                00008024    000000B9 =         185. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008024  A$main$95                          main
+     00008024  Smain$setup_timer2_for_pwm$0       main
+     00008024  Smain$setup_timer2_for_pwm$1       main
+     00008024  Smain$setup_timer2_for_pwm$2       main
+     00008024  _setup_timer2_for_pwm              main
+     00008026  A$main$96                          main
+     00008027  A$main$98                          main
+     00008027  Smain$setup_timer2_for_pwm$3       main
+     00008029  A$main$99                          main
+     0000802A  A$main$101                         main
+     0000802A  Smain$setup_timer2_for_pwm$4       main
+     0000802C  A$main$103                         main
+     0000802C  Smain$setup_timer2_for_pwm$5       main
+     0000802E  A$main$105                         main
+     0000802E  Smain$setup_timer2_for_pwm$6       main
+     00008030  A$main$107                         main
+     00008030  Smain$setup_timer2_for_pwm$7       main
+     00008032  A$main$109                         main
+     00008032  Smain$setup_timer2_for_pwm$8       main
+     00008035  A$main$110                         main
+     00008037  A$main$114                         main
+     00008037  Smain$setup_timer2_for_pwm$10      main
+     00008037  Smain$setup_timer2_for_pwm$9       main
+     0000803B  A$main$117                         main
+     0000803B  Smain$setup_timer2_for_pwm$11      main
+     0000803C  A$main$118                         main
+     0000803F  A$main$121                         main
+     0000803F  Smain$setup_timer2_for_pwm$12      main
+     00008040  A$main$122                         main
+     00008043  A$main$125                         main
+     00008043  Smain$setup_timer2_for_pwm$13      main
+     00008047  A$main$128                         main
+     00008047  Smain$setup_timer2_for_pwm$14      main
+     00008048  A$main$129                         main
+     00008049  A$main$130                         main
+     0000804C  A$main$133                         main
+     0000804C  Smain$setup_timer2_for_pwm$15      main
+     00008050  A$main$136                         main
+     00008050  Smain$setup_timer2_for_pwm$16      main
+     00008053  A$main$137                         main
+     00008055  A$main$138                         main
+     00008058  A$main$141                         main
+     00008058  Smain$setup_timer2_for_pwm$17      main
+     0000805B  A$main$142                         main
+     0000805D  A$main$143                         main
+     00008060  A$main$147                         main
+     00008060  Smain$setup_timer2_for_pwm$18      main
+     00008062  A$main$148                         main
+     00008064  A$main$150                         main
+     00008064  Smain$setup_timer2_for_pwm$19      main
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CODE                                00008024    000000B9 =         185. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00008065  A$main$161                         main
+     00008065  Smain$main$21                      main
+     00008065  Smain$main$22                      main
+     00008065  Smain$main$23                      main
+     00008065  Smain$setup_timer2_for_pwm$20      main
+     00008065  _main                              main
+     00008068  A$main$162                         main
+     0000806A  A$main$163                         main
+     0000806D  A$main$166                         main
+     0000806D  Smain$main$24                      main
+     00008070  A$main$167                         main
+     00008072  A$main$168                         main
+     00008075  A$main$171                         main
+     00008075  Smain$main$25                      main
+     00008077  A$main$173                         main
+     00008077  Smain$main$26                      main
+     00008079  A$main$175                         main
+     00008079  Smain$main$27                      main
+     0000807B  A$main$177                         main
+     0000807B  Smain$main$28                      main
+     0000807D  A$main$179                         main
+     0000807D  Smain$main$29                      main
+     00008080  A$main$184                         main
+     00008080  Smain$main$30                      main
+     00008080  Smain$main$31                      main
+     00008083  A$main$190                         main
+     00008083  Smain$main$32                      main
+     00008083  Smain$main$33                      main
+     00008083  XG$main$0$0                        main
+     00008084  Smain$main$34                      main
+     00008084  __divulong                         _divulong
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+
+Files Linked                              [ module(s) ]
+
+main.rel                                  [ main ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/bin/../share/sdcc/lib/stm8/stm8.lib  [ _divulong.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+
+User Base Address Definitions
+
+HOME = 0x8000
+DATA = 0x0001
+
+

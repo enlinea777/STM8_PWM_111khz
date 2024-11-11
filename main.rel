@@ -1,0 +1,183 @@
+;!FILE main.asm
+XH3
+H C areas 66 global symbols
+M main
+O -mstm8
+S s_INITIALIZED Ref000000
+S l_INITIALIZER Ref000000
+S s_INITIALIZER Ref000000
+S .__.ABS. Def000000
+S s_GSINIT Ref000000
+S l_DATA Ref000000
+S __divulong Ref000000
+S s_DATA Ref000000
+A _CODE size 0 flags 0 addr 0
+A DATA size 0 flags 0 addr 0
+A INITIALIZED size 0 flags 0 addr 0
+A SSEG size 1 flags 0 addr 0
+A DABS size 0 flags 8 addr 0
+A HOME size 7 flags 0 addr 0
+S A$main$80 Def000004
+S A$main$46 Def000000
+A GSINIT size 1A flags 0 addr 0
+S A$main$60 Def000009
+S A$main$61 Def00000A
+S A$main$63 Def00000C
+S A$main$64 Def00000F
+S A$main$56 Def000000
+S A$main$66 Def000011
+S A$main$57 Def000003
+S A$main$67 Def000014
+S A$main$68 Def000017
+S A$main$59 Def000005
+S A$main$69 Def000018
+A GSFINAL size 3 flags 0 addr 0
+S A$main$73 Def000000
+A CONST size 0 flags 0 addr 0
+A INITIALIZER size 0 flags 0 addr 0
+A CODE size 60 flags 0 addr 0
+S A$main$110 Def000011
+S A$main$101 Def000006
+S A$main$130 Def000025
+S A$main$121 Def00001B
+S A$main$103 Def000008
+S A$main$122 Def00001C
+S A$main$150 Def000040
+S A$main$141 Def000034
+S A$main$114 Def000013
+S A$main$105 Def00000A
+S _main Def000041
+S A$main$142 Def000037
+S A$main$133 Def000028
+S A$main$161 Def000041
+S A$main$143 Def000039
+S A$main$125 Def00001F
+S A$main$107 Def00000C
+S A$main$171 Def000051
+S A$main$162 Def000044
+S A$main$117 Def000017
+S A$main$190 Def00005F
+S A$main$163 Def000046
+S A$main$136 Def00002C
+S A$main$118 Def000018
+S A$main$109 Def00000E
+S Smain$main$30 Def00005C
+S Smain$main$21 Def000041
+S A$main$173 Def000053
+S A$main$137 Def00002F
+S A$main$128 Def000023
+S Smain$main$31 Def00005C
+S Smain$main$22 Def000041
+S A$main$147 Def00003C
+S A$main$138 Def000031
+S A$main$129 Def000024
+S Smain$main$32 Def00005F
+S Smain$main$23 Def000041
+S A$main$184 Def00005C
+S A$main$175 Def000055
+S A$main$166 Def000049
+S A$main$148 Def00003E
+S Smain$main$33 Def00005F
+S Smain$main$24 Def000049
+S A$main$167 Def00004C
+S Smain$main$34 Def000060
+S Smain$main$25 Def000051
+S A$main$177 Def000057
+S A$main$168 Def00004E
+S Smain$main$26 Def000053
+S Smain$main$27 Def000055
+S A$main$179 Def000059
+S Smain$main$28 Def000057
+S XG$main$0$0 Def00005F
+S Smain$main$29 Def000059
+S _setup_timer2_for_pwm Def000000
+S A$main$95 Def000000
+S A$main$96 Def000002
+S Smain$setup_timer2_for_pwm$10 Def000013
+S Smain$setup_timer2_for_pwm$20 Def000041
+S Smain$setup_timer2_for_pwm$11 Def000017
+S A$main$98 Def000003
+S Smain$setup_timer2_for_pwm$12 Def00001B
+S A$main$99 Def000005
+S Smain$setup_timer2_for_pwm$13 Def00001F
+S Smain$setup_timer2_for_pwm$14 Def000023
+S Smain$setup_timer2_for_pwm$15 Def000028
+S Smain$setup_timer2_for_pwm$16 Def00002C
+S Smain$setup_timer2_for_pwm$17 Def000034
+S Smain$setup_timer2_for_pwm$18 Def00003C
+S Smain$setup_timer2_for_pwm$19 Def000040
+S Smain$setup_timer2_for_pwm$0 Def000000
+S Smain$setup_timer2_for_pwm$1 Def000000
+S Smain$setup_timer2_for_pwm$2 Def000000
+S Smain$setup_timer2_for_pwm$3 Def000003
+S Smain$setup_timer2_for_pwm$4 Def000006
+S Smain$setup_timer2_for_pwm$5 Def000008
+S Smain$setup_timer2_for_pwm$6 Def00000A
+S Smain$setup_timer2_for_pwm$7 Def00000C
+S Smain$setup_timer2_for_pwm$8 Def00000E
+S Smain$setup_timer2_for_pwm$9 Def000013
+A CABS size 0 flags 8 addr 0
+T 00 00 00
+R 00 00 00 03
+T 00 00 00
+R 00 00 00 03
+T 00 00 00
+R 00 00 00 05
+T 00 00 00 82 00 00 00
+R 00 00 00 05 92 04 00 04
+T 00 00 00
+R 00 00 00 06
+T 00 00 00 AE 00 00 27 07
+R 00 00 00 06 02 04 00 05
+T 00 00 05
+R 00 00 00 06
+T 00 00 05 72 4F FF FF 5A 26 F9
+R 00 00 00 06 12 05 00 07
+T 00 00 0C
+R 00 00 00 06
+T 00 00 0C AE 00 00 27 09
+R 00 00 00 06 02 04 00 01
+T 00 00 11
+R 00 00 00 06
+T 00 00 11 D6 FF FF D7 FF FF 5A 26 F7
+R 00 00 00 06 12 04 00 02 12 07 00 00
+T 00 00 1A
+R 00 00 00 06
+T 00 00 00 CC 00 04
+R 00 00 00 07 00 04 00 05
+T 00 00 04
+R 00 00 00 05
+T 00 00 04 CC 00 41
+R 00 00 00 05 00 04 00 0A
+T 00 00 00
+R 00 00 00 0A
+T 00 00 00 1E 05 89 1E 05 89 4B 00 4B 24 4B F4 4B
+R 00 00 00 0A
+T 00 00 0D 00 CD 00 00 5B 08 35 00 53 0E 9E C7
+R 00 00 00 0A 02 05 00 06
+T 00 00 19 53 0F 9F C7 53 10 35 00 53 11 54 9F C7
+R 00 00 00 0A
+T 00 00 26 53 12 35 60 53 07 C6 53 0A AA 01 C7
+R 00 00 00 0A
+T 00 00 32 53 0A C6 53 00 AA 01 C7 53 00
+R 00 00 00 0A
+T 00 00 3C
+R 00 00 00 0A
+T 00 00 3C 1E 01 5B 06 FC
+R 00 00 00 0A
+T 00 00 41
+R 00 00 00 0A
+T 00 00 41 C6 50 11 AA 10 C7 50 11 C6 50 12 AA 10
+R 00 00 00 0A
+T 00 00 4E C7 50 12 4B 7C 4B 57 4B 0E 4B 00 CD
+R 00 00 00 0A
+T 00 00 5A 00 00
+R 00 00 00 0A 00 03 00 0A
+T 00 00 5C
+R 00 00 00 0A
+T 00 00 5C CC 00 5C
+R 00 00 00 0A 00 04 00 0A
+T 00 00 5F
+R 00 00 00 0A
+T 00 00 5F 81
+R 00 00 00 0A
