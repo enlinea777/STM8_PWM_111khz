@@ -38,12 +38,3 @@ void main() {
     }
 }
 
-
-
-//  sdcc -lstm8 -mstm8 --opt-code-size --out-fmt-elf --out-fmt-ihx --all-callee-saves --debug --verbose --stack-auto --fverbose-asm --std-sdcc99 --nogcse  --float-reent --no-peep -I./ -I./stm8s-sdcc/inc/ -DSTM8S003 ./main.c
-//  sdcc -mstm8 --out-fmt-elf --all-callee-saves --debug --verbose --stack-auto --fverbose-asm  --float-reent --no-peep -I./ -I./stm8s-sdcc/inc/ -D STM8S003 ./main.c
-
-// carga       stm8flash -c stlinkv2 -p stm8s103f3 -w main.ihx
-
-// CODIGO PARA CARGA
-//  sdcc -lstm8 -mstm8 --opt-code-size --out-fmt-elf --out-fmt-ihx --all-callee-saves --debug --verbose --stack-auto --std-sdcc99 --nogcse  --float-reent --no-peep -I./ -I/archivos/stm8/stm8s-sdcc/inc/ -DSTM8S003 ./main.c && stm8flash -c stlinkv2 -p stm8s103f3 -w main.ihx
